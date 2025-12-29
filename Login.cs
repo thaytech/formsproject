@@ -27,7 +27,7 @@ namespace LOGIN
                 else
                 {
                     MessageBox.Show("Desculpe",
-                        "Usuário ou senha incorretos",
+                        "UsuÃ¡rio ou senha incorretos",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error);
 
@@ -72,7 +72,7 @@ namespace LOGIN
             if (!char.IsLetterOrDigit(e.KeyChar) && tecla != 08)
             {
                 e.Handled = true;
-                MessageBox.Show("Digite apenas letra ou números");
+                MessageBox.Show("Digite apenas letra ou nÃºmeros");
 
                 textUsuario.SelectionStart = 0;
                 textUsuario.SelectionLength = textUsuario.Text.Length;
